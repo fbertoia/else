@@ -24,9 +24,9 @@ PATH_HEADER="includes"
 HEADER="push_swap.h"
 
 #==== Test a effectuer =====
-let "valgrind_install = 0"
-let "leaks = 0"
-let "test_basic = 0"
+let "valgrind_install = 1"
+let "leaks = 1"
+let "test_basic = 1"
 CYCLE=5
 
 #==============Dossier de test
